@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap");
+
+html {
+    height: 100%;
+}
+
+body {
+    color: black;
+    display: flex;
+    background-color: #fcdede;
+    flex-direction: column;
+    min-height: 100%;
+}
+
+.my-container {
+    flex: 1;
+}
+
+.carousel-item {
+    max-height: 400px !important;
+}
+
+.project-title {
+    font-family: "Merriweather", serif;
+    font-weight: bold;
+}
+
+#selectOption {
+    margin: 1.5rem 0;
+}
+
+select {
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    user-select: auto;
+    box-shadow: rgb(0, 0, 0, 0.4) 2px 2px 1px 0px;
+}
+
+#result-div {
+    height: auto;
+    margin: 20px 0;
+}
+
+.card {
+    background-color: #439aeb;
+}
+
+.card-body {
+    background-color: #001964;
+    color: white;
+    text-align: center;
+}
+
+p {
+    text-shadow: 1px 1px 3px black;
+}
+
+.weather-date {
+    text-align: center;
+    font-weight: bold;
+    color: yellow;
+    font-size: 1.2rem;
+    max-width: 90%;
+    margin: 0.8rem auto;
+}
+
+.weather-icon-div {
+    text-align: center;
+    margin-bottom: 0.8rem;
+}
+
+.weather-description {
+    font-size: 1rem;
+    min-height: 2.5rem;
+    margin-top: 0.2rem;
+    margin-bottom: 0.6rem;
+    font-weight: bold;
+}
+
+.weather-temperatures {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 0.9rem;
+}
+
+.copyright-text {
+    text-align: center;
+    text-shadow: 0px 0px;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+@media screen and (min-width: 992px) {
+    .carousel-div {
+        width: 50%;
+    }
+}
